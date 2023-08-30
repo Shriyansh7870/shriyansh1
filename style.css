@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(179, 224, 209);
+    color: #fff;
+    padding: 10px 0;
+    
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo{
+background-color: #fff;
+}
+#Hii{
+    color: black;
+    font-size: 36px;
+}
+.Container{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:10px
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+#section{ 
+    background-image: url('https://png.pngtree.com/png-clipart/20190924/original/pngtree-software-developer-illustration-concept-modern-flat-design-concept-of-web-png-image_4853421.jpg');
+    background-size:cover ;
+    text-align: center;
+    color:#fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+#section h1{
+    font-size: 36px;
+    color:black;
+}
+#section p{
+    font-size: 18px;
+    color:black;
+}
+#section1{
+background-image: url('https://w7.pngwing.com/pngs/385/345/png-transparent-web-development-mobile-app-development-software-development-web-application-development-web-application-development-web-design-text-web-application-thumbnail.png');
+background-size:cover ;
+    text-align: center;
+    color:#fff;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+#section1 h1{
+    font-size: 36px;
+    color:black;
+}
+#section1 p{
+    font-size: 18px;
+    font-weight: bolder;
+    color:rgb(7, 218, 70);
+}
+
+#section2{
+    background-image: url('https://w1.pngwing.com/pngs/178/898/png-transparent-web-design-computer-software-custom-software-software-development-process-web-application-software-house-business-productivity-software-web-development-thumbnail.png');
+    background-size:cover ;
+        text-align: center;
+        color:#fff;
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+    }
+    #section1 h1{
+        font-size: 36px;
+        color:black;
+    }
+    #section1 p{
+        font-size: 18px;
+        font-weight: bolder;
+        color:rgb(7, 218, 70);
+    }
+.second{
+    display: flex;
+   margin-left: 450px;
+  
+}
+.second h1{
+    text-align: center;
+    text-decoration: none;
+}
+
+#third{
+    width:200px;
+    height: 40px;
+    top: 20px;
+    margin-left: 650px;
+    border-radius: 15px;
+    font-size: large;
+    background-color: aqua;
+}
+    footer{
+        margin-top: 30px;
+        background-color: #900be8;
+        color:fff;
+        padding:10px 0;
+        text-align: center;
+    }
+
+    @media screen and (max-width:650px) {
+        body{
+            margin: auto;
+            padding: auto;
+        }
+        
+         #Hii{
+            color: black;
+            font-size: 14px;
+            margin-left: 20px;
+        }
+        header{
+           width: auto;
+            padding: 10px 0;
+            
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            gap:5px
+        
+        }
+        nav
+        {
+            max-width: auto;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            /* padding: 0 20px; */
+        } 
+        #section{
+            margin-right: 10px;
+            width: auto;
+        }
+        #section1{
+            margin-right: 20px;
+            margin-left: 40px;
+            width: auto;
+        }
+        #section2{
+            margin-right: 10px;
+            margin-left: 40px;
+            width: auto;
+        }
+        .Container{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 50px;
+            gap:15px;
+        } 
+
+        .second{
+            display: flex;
+           margin-left: 10px;
+          
+        }
+        .second h1{
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        #third{
+            width:200px;
+            height: 40px;
+            margin-top: 40px;
+            margin-left: 100px;
+            border-radius: 15px;
+            font-size: large;
+            background-color: aqua;
+        }
+    }
